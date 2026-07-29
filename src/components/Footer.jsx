@@ -14,7 +14,7 @@ function Footer() {
 
         <nav
           className="footer-links"
-          aria-label="Legal information"
+          aria-label={t.navigationLabel}
         >
           <Link to="/impressum">{t.imprint}</Link>
 
@@ -23,6 +23,18 @@ function Footer() {
           </span>
 
           <Link to="/datenschutz">{t.privacy}</Link>
+
+          <span className="footer-divider" aria-hidden="true">
+            |
+          </span>
+
+          <a
+            href="https://github.com/WinniePoopBear"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            {t.github}
+          </a>
         </nav>
       </div>
     </footer>

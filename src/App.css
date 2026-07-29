@@ -1951,3 +1951,21 @@ a {
 
   box-shadow: 0 0 0 4px rgba(166, 111, 66, 0.13);
 }
+
+.project-link {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 1.25rem;
+  padding: 0.75rem 1.25rem;
+  border-radius: 0.75rem;
+  background: var(--accent-color);
+  color: #A7764D;
+  text-decoration: none;
+  font-weight: 600;
+  transition: opacity 0.2s ease;
+}
+
+.project-link:hover {
+  opacity: 0.9;
+}

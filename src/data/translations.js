@@ -109,25 +109,59 @@ const translations = {
           title: 'Persönliche Bewerbungswebsite',
           description:
             'Responsive React-Website mit Vite, bereitgestellt auf einem eigenen Linux-System innerhalb einer Proxmox-Umgebung.',
-          technologies: ['React', 'Vite', 'CSS', 'Linux', 'Proxmox'],
+          technologies: [
+            'React',
+            'Vite',
+            'CSS',
+            'Linux',
+            'Proxmox',
+          ],
+        },
+        {
+          title: 'Homelab Control Center',
+          description:
+            'Modernes Angular-Dashboard zur Überwachung und Verwaltung einer Homelab-Infrastruktur. Der aktuelle Entwicklungsstand basiert noch auf Dummy-Daten.',
+          technologies: [
+            'Angular 22',
+            'TypeScript',
+            'SCSS',
+            'Signals',
+            'Proxmox',
+            'Linux',
+          ],
+          button: 'Projekt ansehen',
+          url: 'http://homelab-test.cleetus.de',
         },
         {
           title: 'Kalorien-Tracking-App',
           description:
             'Mobile Anwendung zur Erfassung von Mahlzeiten, Kalorien und individuellen Ernährungszielen.',
-          technologies: ['Flutter', 'Dart', 'Mobile App'],
+          technologies: [
+            'Flutter',
+            'Dart',
+            'Mobile App',
+          ],
         },
         {
           title: 'WordPress-Entwicklung',
           description:
             'Entwicklung responsiver Websites, Onlineshops und individueller WordPress-Plugins.',
-          technologies: ['WordPress', 'PHP', 'JavaScript', 'CSS'],
+          technologies: [
+            'WordPress',
+            'PHP',
+            'JavaScript',
+            'CSS',
+          ],
         },
         {
           title: 'Lokale KI-Anwendungen',
           description:
             'Entwicklung von Python- und Swift-Anwendungen mit lokal betriebenen KI-Modellen.',
-          technologies: ['Python', 'Swift', 'Lokale KI'],
+          technologies: [
+            'Python',
+            'Swift',
+            'Lokale KI',
+          ],
         },
       ],
     },
@@ -146,6 +180,7 @@ const translations = {
     footer: {
       imprint: 'Impressum',
       privacy: 'Datenschutz',
+      github: 'GitHub',
       navigationLabel: 'Rechtliche Informationen',
     },
 
@@ -371,25 +406,59 @@ const translations = {
           title: 'Personal Portfolio Website',
           description:
             'Responsive React website built with Vite and hosted on a dedicated Linux system within a Proxmox environment.',
-          technologies: ['React', 'Vite', 'CSS', 'Linux', 'Proxmox'],
+          technologies: [
+            'React',
+            'Vite',
+            'CSS',
+            'Linux',
+            'Proxmox',
+          ],
+        },
+        {
+          title: 'Homelab Control Center',
+          description:
+            'Modern Angular dashboard for monitoring and managing a homelab infrastructure. The current version is powered by dummy data.',
+          technologies: [
+            'Angular 22',
+            'TypeScript',
+            'SCSS',
+            'Signals',
+            'Proxmox',
+            'Linux',
+          ],
+          button: 'View project',
+          url: 'http://homelab-test.cleetus.de',
         },
         {
           title: 'Calorie Tracking App',
           description:
             'Mobile application for tracking meals, calories and personal nutrition goals.',
-          technologies: ['Flutter', 'Dart', 'Mobile App'],
+          technologies: [
+            'Flutter',
+            'Dart',
+            'Mobile App',
+          ],
         },
         {
           title: 'WordPress Development',
           description:
             'Development of responsive websites, online shops and custom WordPress plugins.',
-          technologies: ['WordPress', 'PHP', 'JavaScript', 'CSS'],
+          technologies: [
+            'WordPress',
+            'PHP',
+            'JavaScript',
+            'CSS',
+          ],
         },
         {
           title: 'Local AI Applications',
           description:
             'Development of Python and Swift applications using locally operated AI models.',
-          technologies: ['Python', 'Swift', 'Local AI'],
+          technologies: [
+            'Python',
+            'Swift',
+            'Local AI',
+          ],
         },
       ],
     },
@@ -408,6 +477,7 @@ const translations = {
     footer: {
       imprint: 'Legal notice',
       privacy: 'Privacy policy',
+      github: 'GitHub',
       navigationLabel: 'Legal information',
     },
 

@@ -14,6 +14,7 @@ function Projects() {
         {t.items.map((project) => (
           <article className="card project-card" key={project.title}>
             <h3>{project.title}</h3>
+
             <p>{project.description}</p>
 
             <div className="technology-list">
@@ -21,6 +22,17 @@ function Projects() {
                 <span key={technology}>{technology}</span>
               ))}
             </div>
+
+            {project.url && (
+              <a
+                href={project.url}
+                className="project-link"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                {project.button}
+              </a>
+            )}
           </article>
         ))}
       </div>
